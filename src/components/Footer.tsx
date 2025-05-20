@@ -80,7 +80,7 @@ const Footer = () => {
         
         <div className="border-t border-stone-700 pt-6 mt-8 flex flex-col md:flex-row items-center justify-between">
           <p className="text-stone-400 text-sm">
-            &copy; {new Date().getFullYear()} Travel to Baduy. All rights reserved.
+            &copy; {new Date().getFullYear()} Travel to Baduy | Vanda - President University. All rights reserved.
           </p>
           <div className="mt-4 md:mt-0 text-stone-400 text-sm flex items-center">
             <span>Made with</span>

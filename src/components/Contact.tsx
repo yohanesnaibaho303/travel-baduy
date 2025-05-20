@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { User, Mail, Calendar, MessageSquare, Phone, Send } from 'lucide-react';
+import { User, Mail, Calendar, MessageSquare, Phone } from 'lucide-react';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -135,12 +135,31 @@ const Contact = () => {
                   </div>
                   
                   <div className="pt-2">
-                    <button 
-                      type="submit"
-                      className="w-full btn btn-primary flex justify-center items-center"
+                    <button
+                      type="button"
+                      onClick={() => {
+                        const phoneNumber = '6285173085996'; // Replace with your number
+                        const message = `
+                          Name: ${formData.name}
+                          Email: ${formData.email}
+                          Date: ${formData.date}
+                          Message: ${formData.message}
+                                `.trim();
+                        const encodedMessage = encodeURIComponent(message);
+                        const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+                        window.open(whatsappURL, '_blank');
+                      }}
+                      className="w-full flex items-center justify-center bg-green-500 hover:bg-green-600 text-white font-medium py-2 px-4 rounded-lg transition duration-300"
                     >
-                      <Send className="h-5 w-5 mr-2" />
-                      Send Message
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="h-5 w-5 mr-2"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path d="M12.003 2.003c-5.51 0-9.998 4.488-9.998 9.997 0 1.762.464 3.489 1.343 5.005l-1.416 5.184 5.31-1.393c1.446.78 3.072 1.19 4.761 1.19h.001c5.51 0 9.998-4.488 9.998-9.997s-4.489-9.997-9.999-9.997zm5.845 14.185c-.244.686-1.42 1.292-1.98 1.377-.508.077-1.153.108-1.855-.12-.427-.137-.973-.316-1.673-.619-2.945-1.274-4.868-4.412-5.017-4.624-.147-.212-1.198-1.596-1.198-3.044 0-1.448.76-2.162 1.032-2.457.271-.296.597-.369.796-.369.198 0 .397.002.57.01.184.009.43-.07.672.513.244.59.827 2.04.9 2.189.074.149.123.327.024.532-.099.206-.148.333-.293.513-.146.18-.308.4-.44.54-.146.156-.297.327-.128.643.17.316.757 1.249 1.625 2.022 1.116.995 2.057 1.304 2.373 1.454.316.149.5.124.684-.074.184-.198.791-.924 1.004-1.24.213-.316.427-.265.724-.149.297.116 1.876.883 2.197 1.043.32.16.531.237.61.37.08.132.08.763-.164 1.45z" />
+                      </svg>
+                      Send via WhatsApp
                     </button>
                   </div>
                 </div>

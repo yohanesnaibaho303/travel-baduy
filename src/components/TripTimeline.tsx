@@ -4,7 +4,7 @@ import { MapPin, Home, Clock, Coffee } from 'lucide-react';
 const TripTimeline = () => {
   const timelineSteps = [
     {
-      title: 'Jakarta Departure',
+      title: 'Meeting Point Jakarta Departure',
       description: 'Early morning departure from Jakarta. We\'ll pick you up from your hotel.',
       icon: <MapPin className="w-5 h-5 text-amber-600" />,
       time: 'Day 1, 5:00 AM',
@@ -16,10 +16,16 @@ const TripTimeline = () => {
       time: 'Day 1, 9:00 AM',
     },
     {
-      title: 'Outer Baduy Trek',
+      title: 'Desa Cibeo Dalam',
       description: 'Hike through terraced rice fields and forest paths to reach the Outer Baduy villages.',
       icon: <Clock className="w-5 h-5 text-amber-600" />,
-      time: 'Day 1, 10:00 AM - 3:00 PM',
+      time: 'Day 1, 10:00 AM - 12:00 PM',
+    },
+    {
+      title: 'Desa Ciboleger Baduy Luar Dalam',
+      description: 'Hike through terraced rice fields and forest paths to reach the Outer Baduy villages.',
+      icon: <Clock className="w-5 h-5 text-amber-600" />,
+      time: 'Day 1, 12:00 PM - 3:00 PM',
     },
     {
       title: 'Overnight in Outer Baduy',
@@ -28,22 +34,22 @@ const TripTimeline = () => {
       time: 'Day 1, Evening',
     },
     {
-      title: 'Inner Baduy Trek (Optional)',
+      title: 'Jembatan Akar',
       description: 'For the adventurous, a guided trek to witness the even more traditional Inner Baduy villages.',
       icon: <Clock className="w-5 h-5 text-amber-600" />,
-      time: 'Day 2, 8:00 AM - 4:00 PM',
+      time: 'Day 2, 8:00 AM - 10:00 AM',
     },
     {
-      title: 'Return to Ciboleger',
+      title: 'Jembatan Bambu',
       description: 'Trek back to the starting point. Time for reflection and final purchases of Baduy handicrafts.',
       icon: <Coffee className="w-5 h-5 text-amber-600" />,
-      time: 'Day 3, 10:00 AM - 2:00 PM',
+      time: 'Day 2, 10:00 AM - 12:00 PM',
     },
     {
       title: 'Jakarta Return',
       description: 'Drive back to Jakarta with a deeper understanding of Indonesia\'s indigenous heritage.',
       icon: <MapPin className="w-5 h-5 text-amber-600" />,
-      time: 'Day 3, 6:00 PM',
+      time: 'Day 2, 13:00 PM',
     },
   ];
 

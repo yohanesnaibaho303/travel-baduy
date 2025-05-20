@@ -1,21 +1,25 @@
-import React from 'react';
+import about1 from '../assets/durian.jpeg'
+import about2 from '../assets/5-vanda.jpeg'
+import about3 from '../assets/sustain-living.jpeg'
+
+
 
 const About = () => {
   const cards = [
     {
       title: 'Outer Baduy Culture',
       description: 'Experience the unique lifestyle of Outer Baduy communities, where traditional practices blend with selective modern adaptations.',
-      image: 'https://images.pexels.com/photos/1029604/pexels-photo-1029604.jpeg'
+      image: about1
     },
     {
       title: 'Inner Baduy Traditions',
       description: 'Learn about the strictly preserved traditions of Inner Baduy, where ancient customs and spiritual practices remain unchanged for centuries.',
-      image: 'https://images.pexels.com/photos/2166711/pexels-photo-2166711.jpeg'
+      image: about2
     },
     {
       title: 'Sustainable Living',
       description: 'Witness a harmonious relationship with nature through sustainable farming, handcrafted textiles, and self-sufficient community practices.',
-      image: 'https://images.pexels.com/photos/5560049/pexels-photo-5560049.jpeg'
+      image: about3
     }
   ];
 

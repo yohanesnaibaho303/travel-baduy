@@ -21,7 +21,7 @@ const MeetingPoint = () => {
             <p className="text-stone-600">
               Stasiun KRL Tanah Abang<br />
               Jalan Jati Baru Raya, Jl. Cideng Timur,<br />
-              Kecamatan Tanah Abang, Jakarta, Indonesia<br />
+              Kecamatan Tanah Abang, Jakarta Pusat, <br />
               10250, Indonesia
             </p>
           </div>
@@ -56,8 +56,8 @@ const MeetingPoint = () => {
             <p className="text-stone-600">
               Stasiun KRL Rangkasbitung<br />
               East Muara Ciujung, Rangkasbitung,<br />
-              Lebak Regency, Banten 42314<br />
-              Indonesia
+              Lebak Regency, Province Banten <br />
+              42314, Indonesia
             </p>
           </div>
         </div>
