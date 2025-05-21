@@ -2,7 +2,7 @@
   "nav": {
     "intro": "Intro",
     "about": "About",
-    "tripDetails": "Trip Details",
+    "tripDetails": "Destination",
     "contact": "Contact"
   },
   "hero": {
@@ -27,6 +27,16 @@
         "title": "Sustainable Living",
         "description": "Witness a harmonious relationship with nature through sustainable farming, handcrafted textiles, and self-sufficient community practices."
       }
+    }
+  },
+  "tripDetails": {
+    "title": "Trip Details",
+    "description": "Everything you need to know about your journey to Baduy Village, from start to finish. Our trips are carefully designed to provide an authentic experience while respecting local customs.",
+    "tabs": {
+      "timeline": "Journey Flow",
+      "meeting": "Meeting Point",
+      "facilities": "Facilities",
+      "guidelines": "Do's & Don'ts"
     }
   },
   "contact": {

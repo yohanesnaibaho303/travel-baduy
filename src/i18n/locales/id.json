@@ -2,11 +2,11 @@
   "nav": {
     "intro": "Intro",
     "about": "Tentang",
-    "tripDetails": "Detail Perjalanan",
+    "tripDetails": "Destinasi",
     "contact": "Kontak"
   },
   "hero": {
-    "title": "Jelajahi Desa Baduy Melalui Pandangan Masyarakatnya",
+    "title": "Jelajahi Desa Baduy dari Mata Masyarakatnya",
     "subtitle": "Tur otentik dipandu oleh penduduk lokal",
     "cta": "Mulai Perjalanan Anda"
   },
@@ -27,6 +27,16 @@
         "title": "Kehidupan Berkelanjutan",
         "description": "Saksikan hubungan yang harmonis dengan alam melalui pertanian berkelanjutan, tekstil buatan tangan, dan praktik komunitas yang mandiri."
       }
+    }
+  },
+  "tripDetails": {
+    "title": "Detail Perjalanan",
+    "description": "Segala hal yang perlu Anda ketahui tentang perjalanan Anda ke Desa Baduy, dari awal hingga akhir. Perjalanan kami dirancang dengan cermat untuk memberikan pengalaman autentik dengan tetap menghormati adat istiadat setempat.",
+    "tabs": {
+      "timeline": "Alur Perjalanan",
+      "meeting": "Tempat Pertemuan",
+      "facilities": "Fasilitas",
+      "guidelines": "Boleh & Tidak Boleh"
     }
   },
   "contact": {
