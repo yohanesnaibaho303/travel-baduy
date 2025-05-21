@@ -1,0 +1,48 @@
+{
+  "nav": {
+    "intro": "Intro",
+    "about": "About",
+    "tripDetails": "Trip Details",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Discover Baduy Village Through the Eyes of Its People",
+    "subtitle": "Authentic tours guided by the locals themselves",
+    "cta": "Start Your Journey"
+  },
+  "about": {
+    "title": "About Baduy Village",
+    "description": "Tucked away in the mountains of Banten province in Indonesia, the Baduy people maintain one of the most preserved indigenous cultures in the world. Divided into Inner Baduy (Baduy Dalam) and Outer Baduy (Baduy Luar), these communities live by strict ancestral traditions that govern every aspect of their lives.",
+    "description2": "Our community-based tours offer a rare opportunity to experience this unique culture with respect and authenticity. By traveling with local Baduy guides, you contribute directly to the community while gaining insights few outsiders ever experience.",
+    "cards": {
+      "outer": {
+        "title": "Outer Baduy Culture",
+        "description": "Experience the unique lifestyle of Outer Baduy communities, where traditional practices blend with selective modern adaptations."
+      },
+      "inner": {
+        "title": "Inner Baduy Traditions",
+        "description": "Learn about the strictly preserved traditions of Inner Baduy, where ancient customs and spiritual practices remain unchanged for centuries."
+      },
+      "sustainable": {
+        "title": "Sustainable Living",
+        "description": "Witness a harmonious relationship with nature through sustainable farming, handcrafted textiles, and self-sufficient community practices."
+      }
+    }
+  },
+  "contact": {
+    "title": "Start Your Journey",
+    "subtitle": "Ready to experience the authentic Baduy culture? Get in touch with us to plan your trip. We'll help you create a memorable journey that respects both the traditions and your preferences.",
+    "form": {
+      "name": "Your Name",
+      "email": "Email Address",
+      "date": "Preferred Travel Date",
+      "message": "Your Message",
+      "messagePlaceholder": "Tell us about your trip expectations...",
+      "submit": "Send via WhatsApp"
+    },
+    "success": {
+      "title": "Thank you for your inquiry!",
+      "message": "We'll get back to you within 24 hours."
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "nav": {
+    "intro": "Intro",
+    "about": "Tentang",
+    "tripDetails": "Detail Perjalanan",
+    "contact": "Kontak"
+  },
+  "hero": {
+    "title": "Jelajahi Desa Baduy Melalui Pandangan Masyarakatnya",
+    "subtitle": "Tur otentik dipandu oleh penduduk lokal",
+    "cta": "Mulai Perjalanan Anda"
+  },
+  "about": {
+    "title": "Tentang Desa Baduy",
+    "description": "Tersembunyi di pegunungan provinsi Banten, Indonesia, masyarakat Baduy mempertahankan salah satu budaya adat yang paling terjaga di dunia. Terbagi menjadi Baduy Dalam dan Baduy Luar, komunitas ini hidup dengan tradisi leluhur yang ketat yang mengatur setiap aspek kehidupan mereka.",
+    "description2": "Tur berbasis komunitas kami menawarkan kesempatan langka untuk mengalami budaya unik ini dengan penuh rasa hormat dan keaslian. Dengan bepergian bersama pemandu lokal Baduy, Anda berkontribusi langsung pada komunitas sambil mendapatkan wawasan yang jarang dialami orang luar.",
+    "cards": {
+      "outer": {
+        "title": "Budaya Baduy Luar",
+        "description": "Rasakan gaya hidup unik komunitas Baduy Luar, di mana praktik tradisional berpadu dengan adaptasi modern yang selektif."
+      },
+      "inner": {
+        "title": "Tradisi Baduy Dalam",
+        "description": "Pelajari tentang tradisi Baduy Dalam yang terjaga ketat, di mana adat istiadat dan praktik spiritual tetap tidak berubah selama berabad-abad."
+      },
+      "sustainable": {
+        "title": "Kehidupan Berkelanjutan",
+        "description": "Saksikan hubungan yang harmonis dengan alam melalui pertanian berkelanjutan, tekstil buatan tangan, dan praktik komunitas yang mandiri."
+      }
+    }
+  },
+  "contact": {
+    "title": "Mulai Perjalanan Anda",
+    "subtitle": "Siap mengalami budaya Baduy yang otentik? Hubungi kami untuk merencanakan perjalanan Anda. Kami akan membantu Anda menciptakan perjalanan yang berkesan yang menghormati tradisi dan preferensi Anda.",
+    "form": {
+      "name": "Nama Anda",
+      "email": "Alamat Email",
+      "date": "Tanggal Perjalanan yang Diinginkan",
+      "message": "Pesan Anda",
+      "messagePlaceholder": "Ceritakan harapan perjalanan Anda...",
+      "submit": "Kirim via WhatsApp"
+    },
+    "success": {
+      "title": "Terima kasih atas pertanyaan Anda!",
+      "message": "Kami akan menghubungi Anda dalam 24 jam."
+    }
+  }
+}
