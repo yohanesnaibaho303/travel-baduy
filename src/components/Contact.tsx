@@ -221,11 +221,9 @@ const Contact = () => {
                 <div className="border-b border-amber-600 pb-4">
                   <h4 className="font-bold text-xl">2-Day Experience</h4>
                   <p className="text-amber-100 mb-2">
-                    Outer Baduy villages only
+                    Outer & Inner Baduy villages
                   </p>
-                  <p className="font-bold text-2xl">
-                    IDR 1,500,000 - 2,000,000
-                  </p>
+                  <p className="font-bold text-2xl">IDR 250.000</p>
                   <p className="text-sm text-amber-100">
                     per person (min. 2 people)
                   </p>
@@ -236,9 +234,7 @@ const Contact = () => {
                   <p className="text-amber-100 mb-2">
                     Outer & Inner Baduy villages
                   </p>
-                  <p className="font-bold text-2xl">
-                    IDR 2,500,000 - 3,000,000
-                  </p>
+                  <p className="font-bold text-2xl">IDR 300.000</p>
                   <p className="text-sm text-amber-100">
                     per person (min. 2 people)
                   </p>
@@ -265,7 +261,7 @@ const Contact = () => {
                   <div className="ml-4">
                     <h4 className="font-bold text-stone-800">Local Guide</h4>
                     <p className="text-stone-600">
-                      A Saptri (Baduy Community Coordinator)
+                      A Sapri (Local Baduy Coordinator)
                     </p>
                   </div>
                 </div>
@@ -288,7 +284,7 @@ const Contact = () => {
                   </div>
                   <div className="ml-4">
                     <h4 className="font-bold text-stone-800">Email</h4>
-                    <p className="text-stone-600">saptribaduyt@gmail.com</p>
+                    <p className="text-stone-600">Jovandavanda9@gmail.com</p>
                   </div>
                 </div>
 
